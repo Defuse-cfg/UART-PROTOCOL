@@ -1,4 +1,4 @@
-vlog -source tb.sv
+vlog -source uart_tb.sv
 vlog -source uart.sv
 vsim -novopt work.tb
 
