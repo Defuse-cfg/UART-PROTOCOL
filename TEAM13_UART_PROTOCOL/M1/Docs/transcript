@@ -1,9 +1,110 @@
-# Compile of Uart_design.sv was successful.
-# Compile of UART_TB.sv was successful.
+# Compile of uart.sv was successful.
+# Compile of uart_tb.sv was successful.
 # 2 compiles, 0 failed with no errors.
-vsim -gui work.uart_tb -voptargs=+acc
-# vsim -gui work.uart_tb -voptargs="+acc" 
-# Start time: 21:11:05 on Jan 31,2025
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:16:34 on Feb 03,2025
+# vlog -reportprogress 300 *.sv "+acc" 
+# ** Error: (vlog-7) Failed to open design unit file "*.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 18:16:34 on Feb 03,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2024.2/win64/vlog failed.
+# Error in macro \\thoth.cecs.pdx.edu\Home03\vedant\Downloads\ece593w25_13_UART_M1\run.do line 4
+# C:/questasim64_2024.2/win64/vlog failed.
+#     while executing
+# "vlog *.sv +acc"
+# Compile of uart.sv was successful.
+# Compile of uart_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of uart.sv was successful.
+# Compile of uart_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:24:48 on Feb 03,2025
+# vlog -reportprogress 300 uart.sv uart_tb.sv "+acc" 
+# -- Compiling module uart_top
+# -- Compiling module b_clk
+# -- Compiling module uart_tx
+# -- Compiling module uart_rx
+# -- Compiling module fifo
+# -- Compiling module uart_tb
+# 
+# Top level modules:
+# 	uart_tb
+# End time: 18:24:49 on Feb 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim uart_tb -voptargs=""+cover=bcesf"" 
+# Start time: 18:24:49 on Feb 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vopt-143) Recognized 1 FSM in module "uart_tx(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "uart_rx(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_tb(fast)
+# Loading work.uart_top(fast)
+# Loading work.b_clk(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.fifo(fast)
+# Time:                    0, d_in: 00000000, d_out: xxxxxxxx, wr_en: 0, rd_en: 0, tx_full: x, rx_empty: x
+# Time:                    5, d_in: 00000000, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
+# Time:                   20, d_in: 10101010, d_out: 00000000, wr_en: 1, rd_en: 0, tx_full: 0, rx_empty: 0
+# Time:                   30, d_in: 10101010, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
+# 0000000001
+# Time:                   40, d_in: 10101010, d_out: 00000000, wr_en: 0, rd_en: 1, tx_full: 0, rx_empty: 0
+# Time:                   50, d_in: 10101010, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
+# Time:                   60, d_in: 11001100, d_out: 00000000, wr_en: 1, rd_en: 0, tx_full: 0, rx_empty: 0
+# Time:                   70, d_in: 11001100, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
+# Time:                   80, d_in: 11001100, d_out: 00000000, wr_en: 0, rd_en: 1, tx_full: 0, rx_empty: 0
+# Time:                   90, d_in: 11001100, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
+# ** Note: $finish    : uart_tb.sv(57)
+#    Time: 110 ns  Iteration: 0  Instance: /uart_tb
+# 1
+# Break in Module uart_tb at uart_tb.sv line 57
+do run.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is vedant@REMOTELAB26.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:31:12 on Feb 03,2025
+# vlog -reportprogress 300 uart.sv uart_tb.sv "+acc" 
+# -- Compiling module uart_top
+# -- Compiling module b_clk
+# -- Compiling module uart_tx
+# -- Compiling module uart_rx
+# -- Compiling module fifo
+# -- Compiling module uart_tb
+# 
+# Top level modules:
+# 	uart_tb
+# End time: 18:31:12 on Feb 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:31:15 on Feb 03,2025, Elapsed time: 0:06:26
+# Errors: 0, Warnings: 9
+# vsim uart_tb -voptargs=""+cover=bcesf"" 
+# Start time: 18:31:15 on Feb 03,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.uart_tb(fast)
+# Loading work.uart_top(fast)
+# Loading work.b_clk(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.fifo(fast)
+quit -sim
+# End time: 18:32:16 on Feb 03,2025, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 1
+# Compile of uart.sv was successful.
+# Compile of uart_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.uart_tb
+# vsim -voptargs="+acc" work.uart_tb 
+# Start time: 18:32:38 on Feb 03,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
 # Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
@@ -31,7 +132,63 @@ run -all
 # Time:                   70, d_in: 11001100, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
 # Time:                   80, d_in: 11001100, d_out: 00000000, wr_en: 0, rd_en: 1, tx_full: 0, rx_empty: 0
 # Time:                   90, d_in: 11001100, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
-# ** Note: $finish    : S:/Desktop/UART_TB.sv(56)
+# ** Note: $finish    : //thoth.cecs.pdx.edu/Home03/vedant/Downloads/ece593w25_13_UART_M1/uart_tb.sv(57)
 #    Time: 110 ns  Iteration: 0  Instance: /uart_tb
 # 1
-# Break in Module uart_tb at S:/Desktop/UART_TB.sv line 56
+# Break in Module uart_tb at //thoth.cecs.pdx.edu/Home03/vedant/Downloads/ece593w25_13_UART_M1/uart_tb.sv line 57
+quit -sim
+# End time: 18:35:08 on Feb 03,2025, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 3
+# Compile of uart.sv was successful.
+# Compile of uart_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:36:33 on Feb 03,2025
+# vlog -reportprogress 300 uart.sv uart_tb.sv "+acc" 
+# -- Compiling module uart_top
+# -- Compiling module b_clk
+# -- Compiling module uart_tx
+# -- Compiling module uart_rx
+# -- Compiling module fifo
+# -- Compiling module uart_tb
+# 
+# Top level modules:
+# 	uart_tb
+# End time: 18:36:33 on Feb 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim uart_tb -voptargs="+acc" 
+# Start time: 18:36:33 on Feb 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Note: (vopt-143) Recognized 1 FSM in module "uart_tx(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "uart_rx(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_tb(fast)
+# Loading work.uart_top(fast)
+# Loading work.b_clk(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.fifo(fast)
+# Time:                    0, d_in: 00000000, d_out: xxxxxxxx, wr_en: 0, rd_en: 0, tx_full: x, rx_empty: x
+# Time:                    5, d_in: 00000000, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
+# Time:                   20, d_in: 10101010, d_out: 00000000, wr_en: 1, rd_en: 0, tx_full: 0, rx_empty: 0
+# Time:                   30, d_in: 10101010, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
+# 0000000001
+# Time:                   40, d_in: 10101010, d_out: 00000000, wr_en: 0, rd_en: 1, tx_full: 0, rx_empty: 0
+# Time:                   50, d_in: 10101010, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
+# Time:                   60, d_in: 11001100, d_out: 00000000, wr_en: 1, rd_en: 0, tx_full: 0, rx_empty: 0
+# Time:                   70, d_in: 11001100, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
+# Time:                   80, d_in: 11001100, d_out: 00000000, wr_en: 0, rd_en: 1, tx_full: 0, rx_empty: 0
+# Time:                   90, d_in: 11001100, d_out: 00000000, wr_en: 0, rd_en: 0, tx_full: 0, rx_empty: 0
+# ** Note: $finish    : uart_tb.sv(57)
+#    Time: 110 ns  Iteration: 0  Instance: /uart_tb
+# 1
+# Break in Module uart_tb at uart_tb.sv line 57
+quit -sim
+# End time: 18:39:06 on Feb 03,2025, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 3

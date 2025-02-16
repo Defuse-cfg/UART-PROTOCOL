@@ -1,8 +1,9 @@
-vlog -source uart_tb.sv
-vlog -source uart.sv
-vsim -novopt work.uart_tb
+
+if [file exists "work"] {vdel -all}
+vlib work
+vlog *.sv +acc
+vsim uart_tb -voptargs="+cover=bcesf"
 
 add wave -r /*
-run -all
 
-quit
+run -all

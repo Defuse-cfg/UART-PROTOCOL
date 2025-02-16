@@ -1,3 +1,4 @@
+// Code your design here
 module uart_top(clk,reset,rd_en,wr_en,d_in,d_out,tx_full,rx_empty,tx,rx);
 input clk,reset,wr_en;
 input rd_en,rx;  
