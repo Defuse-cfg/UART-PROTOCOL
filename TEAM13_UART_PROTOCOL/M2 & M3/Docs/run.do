@@ -1,15 +1,9 @@
 vdel -all
 
-vlog -source -lint uart.sv
-vlog -source -lint tb.sv
+vlog -source transaction.sv uart.sv uart_tb.sv
 
 
-vsim  uart_top
-
-
-vsim -coverage uart_top -voptargs="+cover=bcesfx"
-vlog -cover bcst uart.sv
-vsim -coverage uart_top -do "run -all; exit"
+vsim -coverage uart_tb -voptargs="+cover=bcesfx"
 run -all
 coverage report -code bcesft
 coverage report -assert -binrhs -details -cvg
