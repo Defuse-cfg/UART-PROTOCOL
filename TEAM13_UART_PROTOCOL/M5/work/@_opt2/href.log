@@ -1,0 +1,7 @@
+BEGIN 3:tb_ifc:fast__2:work
+    o_RX_Byte :  1:top_testbench:fast:work
+    i_TX_Data_Valid :  1:top_testbench:fast:work
+    o_RX_Data_Valid :  1:top_testbench:fast:work
+    o_TX_Done :  1:top_testbench:fast:work
+    i_TX_Byte :  1:top_testbench:fast:work
+END 

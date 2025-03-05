@@ -1,0 +1,190 @@
+//thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/RTL/UART.sv {1 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/RTL/UART.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_in.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_in.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_in.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_in.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_in.svh(8): near "tx_base": syntax error, unexpected IDENTIFIER.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_in.svh(8): Error in class extension specification.
+
+} {4.0 7.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/top_tb_test.sv {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/top_tb_test.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module top_tb_test
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/top_tb_test.sv(8): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+
+} {5.0 6.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/driver.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/driver.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/driver.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/driver.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/driver.svh(8): (vlog-2730) Undefined variable: 'tx_in'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/driver.svh(18): near ";": syntax error, unexpected ';', expecting '('.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/driver.svh(20): (vlog-2730) Undefined variable: 'tx_agent_config'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/driver.svh(26): near ";": syntax error, unexpected ';', expecting '('.
+
+} {4.0 9.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(3): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(5): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(14): Invalid type 'uart_agent'. Please check the type of the variable 'agt'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(15): Invalid type 'uart_scoreboard'. Please check the type of the variable 'scb'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(16): Invalid type 'env_config'. Please check the type of the variable 'env_cfg'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(19): (vlog-2730) Undefined variable: 'agt'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(19): (vlog-2164) Class or package 'uart_agent' not found.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(19): (vlog-2730) Undefined variable: 'uart_agent'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(19): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(21): (vlog-2730) Undefined variable: 'env_config'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(24): (vlog-2730) Undefined variable: 'tx_agent_config'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(27): (vlog-2730) Undefined variable: 'scb'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(27): (vlog-2164) Class or package 'uart_scoreboard' not found.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(27): (vlog-2730) Undefined variable: 'uart_scoreboard'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/environment.svh(27): near "::": syntax error, unexpected ::, expecting ';'.
+
+} {4.0 18.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_base.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_base.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_base.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_base.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+
+} {4.0 5.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_agent_config.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_agent_config.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_agent_config.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_agent_config.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_agent_config.svh(17): (vlog-2730) Undefined variable: 'tx_in'.
+
+} {4.0 6.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(15): Invalid type 'tx_agent_config'. Please check the type of the variable 'tx_agent_cfg'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(18): (vlog-2730) Undefined variable: 'tx_in'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(19): (vlog-2730) Undefined variable: 'tx_out'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(26): (vlog-2730) Undefined variable: 'tx_agent_config'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(39): near ";": syntax error, unexpected ';', expecting '('.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(41): (vlog-2730) Undefined variable: 'tx'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(41): (vlog-2164) Class or package 'tx_in' not found.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(41): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(49): near ";": syntax error, unexpected ';', expecting '('.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(52): (vlog-2730) Undefined variable: 'tx'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(52): (vlog-2164) Class or package 'tx_out' not found.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/monitor.svh(52): near "::": syntax error, unexpected ::, expecting ';'.
+
+} {4.0 17.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/uart_class_package.sv {1 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/uart_class_package.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling package uart_class_package
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/uart_class_package.sv(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	--none--
+
+} {} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/sequences/write_tx_sequence.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/sequences/write_tx_sequence.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/sequences/write_tx_sequence.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/sequences/write_tx_sequence.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/sequences/write_tx_sequence.svh(9): (vlog-2730) Undefined variable: 'tx_in'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/sequences/write_tx_sequence.svh(18): near ";": syntax error, unexpected ';', expecting '('.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/sequences/write_tx_sequence.svh(21): (vlog-2730) Undefined variable: 'tx'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/sequences/write_tx_sequence.svh(21): (vlog-2164) Class or package 'tx_in' not found.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/sequences/write_tx_sequence.svh(21): near "::": syntax error, unexpected ::, expecting ';'.
+
+} {4.0 10.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/RTL/UART_RX.sv {1 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/RTL/UART_RX.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module UART_RX
+
+Top level modules:
+	UART_RX
+
+} {} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/coverage_collector.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/coverage_collector.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/coverage_collector.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/coverage_collector.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/coverage_collector.svh(7): (vlog-2730) Undefined variable: 'tx_in'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/coverage_collector.svh(9): Invalid type 'tx_in'. Please check the type of the variable 'tx'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/coverage_collector.svh(33): (vlog-2400) Identifier ('tx_in') found where a type or type identifier is required.
+
+} {4.0 8.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tests/simple_test.svh {1 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tests/simple_test.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tests/simple_test.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package simple_test_svh_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uart_class_package
+
+Top level modules:
+	--none--
+
+} {} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_out.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_out.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_out.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_out.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_out.svh(10): near "tx_base": syntax error, unexpected IDENTIFIER.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/tx_out.svh(10): Error in class extension specification.
+
+} {4.0 7.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/tb_ifc.sv {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/tb_ifc.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling interface tb_ifc
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/tb_ifc.sv(11): (vlog-2164) Class or package 'uart_class_package' not found.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/tb_ifc.sv(11): near "::": syntax error, unexpected ::, expecting ')'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/tb_ifc.sv(22): (vlog-2164) Class or package 'uart_class_package' not found.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/tb_ifc.sv(22): near "::": syntax error, unexpected ::, expecting ')'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/tb_ifc.sv(31): (vlog-2164) Class or package 'uart_class_package' not found.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/tb_ifc.sv(31): near "::": syntax error, unexpected ::, expecting ')'.
+
+} {4.0 10.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/RTL/UART_TX.sv {1 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/RTL/UART_TX.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module UART_TX
+
+Top level modules:
+	UART_TX
+
+} {} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/scoreboard.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/scoreboard.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/scoreboard.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/scoreboard.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/scoreboard.svh(21): (vlog-2730) Undefined variable: 'tx_in'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/scoreboard.svh(22): (vlog-2730) Undefined variable: 'tx_out'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/scoreboard.svh(27): Invalid type 'tx_out'. Please check the type of the variable 'expect_aa'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/scoreboard.svh(27): near "[": syntax error, unexpected '[', expecting function or task or   .
+
+} {4.0 9.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/top_hdl_test.sv {1 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/tb/top_hdl_test.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module top_hdl_test
+
+Top level modules:
+	top_hdl_test
+
+} {} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/env_config.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/env_config.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/env_config.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/env_config.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/env_config.svh(16): Invalid type 'tx_agent_config'. Please check the type of the variable 'tx_agent_cfg'.
+
+} {4.0 6.0} {}} //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh {0 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Note: (vlog-2286) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(4): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(6): (vlog-13006) Could not find the package (uart_class_package).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(15): (vlog-2730) Undefined variable: 'tx_in'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(16): (vlog-2730) Undefined variable: 'tx_out'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(19): Invalid type 'uart_driver'. Please check the type of the variable 'drv'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(20): Invalid type 'uart_monitor'. Please check the type of the variable 'mon'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(21): Invalid type 'uart_coverage'. Please check the type of the variable 'cov'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(22): Invalid type 'tx_agent_config'. Please check the type of the variable 'tx_agent_cfg'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(28): (vlog-2730) Undefined variable: 'tx_agent_config'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(31): (vlog-2730) Undefined variable: 'mon'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(31): (vlog-2164) Class or package 'uart_monitor' not found.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(31): (vlog-2730) Undefined variable: 'uart_monitor'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(31): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(34): (vlog-2730) Undefined variable: 'drv'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(34): (vlog-2164) Class or package 'uart_driver' not found.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(34): (vlog-2730) Undefined variable: 'uart_driver'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(34): near "::": syntax error, unexpected ::, expecting ';'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(40): (vlog-2730) Undefined variable: 'cov'.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(40): (vlog-2164) Class or package 'uart_coverage' not found.
+** Error: //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(40): (vlog-2730) Undefined variable: 'uart_coverage'.
+** Error: (vlog-13069) //thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master/UART/UVM_tb/env/agent.svh(40): near "::": syntax error, unexpected ::, expecting ';'.
+
+} {4.0 24.0} {}}

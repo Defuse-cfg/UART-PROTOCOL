@@ -1,0 +1,1 @@
+C:/questasim64_2024.2/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 85279008 work.top_testbench -quiet -auto_acc_if_foreign -work work +acc -allow_unnamed -o _opt2 -id 1-4cd7179a8ff8-67c7ca88-2c4-6280 +__design_bin_path+//thoth.cecs.pdx.edu/Home07/benarji/Desktop/UART_UVM_Project-master +__betafsm
